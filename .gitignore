@@ -55,6 +55,16 @@ Thumbs.db
 .env
 .env.*
 
+# misc MDs
+
 THREADS.md
 
 PROMPT.md
+
+# bazel
+
+*.bazel
+
+# output
+
+feedr_output/

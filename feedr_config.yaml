@@ -1,0 +1,14 @@
+output_dir: "feedr_output"
+
+discovery:
+  min_volume_usd: 10000
+  max_markets_per_run: 2
+  lookback_days: 365
+
+sources:
+  polymarket:
+    enabled: true
+    rate_limit_rps: 5
+    max_retries: 3
+  kalshi:
+    enabled: false
